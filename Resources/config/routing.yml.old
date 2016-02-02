@@ -1,0 +1,3 @@
+sym16_simple_stock_homepage:
+    path:     /
+    defaults: { _controller: SYM16SimpleStockBundle:Default:index }

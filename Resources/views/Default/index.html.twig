@@ -1,0 +1,32 @@
+<html>
+ <body>
+  <h2>Hello Utilisateur {{name}}!</h2>
+  <h2>Menu Pricipal</h2>
+  <h3>Opérations Simples</h3>
+    <li>
+     <a href="{{ path('sym16_simple_stock_mult',
+      {'var1':'5', 'var2':'3'}) }}">
+      Calculer le Produit de Deux Nombres 
+     </a>
+    </li>
+    <li>
+     <a href="{{ path('sym16_simple_stock_iLike',
+      {'verbe':'Comer'}) }}">
+      Like 
+     </a>
+    </li>
+    </li>
+    <li>
+     <a href="{{ path('sym16_simple_stock_racine',
+      {'valeur':'9', 'radical':'2'}) }}">
+      Racine
+     </a>
+    </li>
+
+    <br><br><br>
+     <dt><b>Project Réalisé par les Étudiants de {{university}}</b></dt>
+         <dd>Cursus : {{cursus}}</dd>
+         <dd>Cours : {{lecture}}</dd>
+         <dd>Enseignant : {{prof}}</dd>
+ </body>
+</html>
